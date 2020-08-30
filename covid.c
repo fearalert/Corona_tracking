@@ -13,7 +13,7 @@ int main()
     int date;
     char month[20];
     printf("Enter the date of data stored:\n");
-    scanf("%d,&date);
+    scanf("%d",&date);
     printf("Enter the no of covid cases to be stored:\n");
     scanf("%d",&n);
     printf("Enter covid cases in the pattern of  district , total cases, total active cases, total recovered cases\n");
