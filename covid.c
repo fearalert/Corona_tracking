@@ -1,16 +1,18 @@
 #include<stdio.h>
 #include<string.h>
+
 struct covid
 {
     int total_cases,total_active,total_recovered;
     char district[25];
 }covid[100],t;
+
 int main()
 {
     int i,j,n;
     int date;
     char month[20];
-    printf("Enter the date of data:\n");
+    printf("Enter the date and month of data stored:\n");
     scanf("%d %s",&date,&month);
     printf("Enter the no of covid cases to be stored:\n");
     scanf("%d",&n);
