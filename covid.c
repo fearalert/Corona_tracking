@@ -12,8 +12,8 @@ int main()
     int i,j,n;
     int date;
     char month[20];
-    printf("Enter the date and month of data stored:\n");
-    scanf("%d %s",&date,&month);
+    printf("Enter the date of data stored:\n");
+    scanf("%d,&date);
     printf("Enter the no of covid cases to be stored:\n");
     scanf("%d",&n);
     printf("Enter covid cases in the pattern of  district , total cases, total active cases, total recovered cases\n");
@@ -33,7 +33,7 @@ int main()
             }
         }
     }
-    printf("\n The date of data collection is %d %s,2020:\n",date,month);
+    printf("\n The date of data collection is %d September,2020:\n",date);
     printf("\nCovid cases sorted in the order of total no of cases\n");
     printf("\nDistrict\t\tTotal Cases(s)\t\t Total Active cases \t\t Total recovered cases \n");
     printf("-------------------------------------------------------------------------------------------------------\n");
